@@ -10,16 +10,16 @@ function App() {
     <Navbar />
 
     <section id='home' className='min-h-screen text-center mt-8 flex flex-col justify-center '>
-        <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2">
+        <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2 mt-12">
           <img src='/Headshot1.jpg' layout="fill" objectFit="cover" />
         </div>
         <h1 className='text-3xl md:text-5xl font-medium text-teal-500'>Chrstian Martinez</h1>
-        <h3 className='text-xl md:text-2xl'>Full Stack Software Engineer</h3>
-        <p className='text-md py-1 text-gray-800 md:text-xl'>Enthusiastic and motivated self-learning about information technology. Focused on cloud computing, devsecops, and web development. Now I am looking for more experience in my field. </p>
+        <h3 className='text-xl md:text-2xl'>New Grad Software Engineer</h3>
+        <p className='text-md py-5 text-gray-800 md:text-xl'>A fourth-year Computer Engineering major at the University of Florida. I have both professional and academic experience in the field of software engineering through an internship and coursework. These have given me valuable knowledge of many different tech stacks and programming languages which will no doubt prove valuable in industry. I would describe myself as a goal oriented, fast-learning individual who is always excited for the next challenge. </p>
         <div className='text-5xl py-4 flex justify-center gap-16 text-gray-600'>
-            <a href="https://github.com/cjmartinez217"><AiFillLinkedin /></a>
-          <AiFillGithub />
-          <AiFillMail />
+          <a href="https://www.linkedin.com/in/christian-j-martinez/"><AiFillLinkedin /></a>
+          <a href="https://github.com/cjmartinez217"><AiFillGithub /></a>
+          <a href="mailto:cjmartinez217@gmail.com"><AiFillMail /></a>
         </div>
     </section>
 
